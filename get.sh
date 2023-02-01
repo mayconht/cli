@@ -18,7 +18,7 @@ NC='\033[0m'
 # basic variables
 INSTALL_PATH=${INSTALL_PATH:-"/usr/local/bin"}
 NEED_SUDO=${NEED_SUDO:-1}
-REPO="nhost/cli"
+REPO="mayconht/cli"
 
 # check for existing installation
 hasCli=$(which nhost)

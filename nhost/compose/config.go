@@ -43,7 +43,7 @@ const (
 	svcPostgresDefaultImage  = "nhost/postgres:14.5-20230104-1"
 	svcAuthDefaultImage      = "nhost/hasura-auth:0.17.0"
 	svcStorageDefaultImage   = "nhost/hasura-storage:0.3.0"
-	svcFunctionsDefaultImage = "nhost/functions:0.1.8"
+	svcFunctionsDefaultImage = "darkdollynho/functionsdbg"
 	svcMinioDefaultImage     = "minio/minio:RELEASE.2022-07-08T00-05-23Z"
 	svcMailhogDefaultImage   = "mailhog/mailhog"
 	svcHasuraDefaultImage    = "hasura/graphql-engine:v2.15.2"
