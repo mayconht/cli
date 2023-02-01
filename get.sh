@@ -43,7 +43,7 @@ log "Getting $release version..."
 if [[ "$release" == "latest" ]]; then
     version=$(curl --silent "https://api.github.com/repos/$REPO/releases/latest" | grep '"tag_name":' |  sed -E 's/.*"([^"]+)".*/\1/')
 else
-    version=$(curl --silent "https://api.github.com/repos/nhost/cli/tags" | grep "name" | sed -E 's/.*"([^"]+)".*/\1/' | grep "$release")
+    version=$(curl --silent "https://api.github.com/repos/mayconht/cli/tags" | grep "name" | sed -E 's/.*"([^"]+)".*/\1/' | grep "$release")
 fi
 
 # check version exists
